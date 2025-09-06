@@ -1,10 +1,11 @@
+// constants/index.ts
+
 export const sidebarLinks = [
   {
     imgURL: '/icons/Home.svg',
     route: '/',
     label: 'Home',
   },
-
   {
     imgURL: '/icons/upcoming.svg',
     route: '/upcoming',
@@ -16,9 +17,14 @@ export const sidebarLinks = [
     label: 'Previous',
   },
   {
-    imgURL: '/icons/Video.svg',
+    imgURL: '/icons/recordings.svg',
     route: '/recordings',
     label: 'Recordings',
+  },
+  {
+    imgURL: '/icons/captions-icon.svg',
+    route: '/captions',
+    label: 'Captions',
   },
   {
     imgURL: '/icons/add-personal.svg',
