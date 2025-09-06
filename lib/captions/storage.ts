@@ -1,6 +1,6 @@
 // lib/captions/storage.ts
 
-import { CaptionSession, TranscriptEntry } from './types';
+import { CaptionSession } from './types';
 
 export class CaptionStorage {
   private STORAGE_KEY = 'meeting_captions';

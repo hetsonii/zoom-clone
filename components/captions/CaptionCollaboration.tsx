@@ -21,7 +21,6 @@ export default function CaptionCollaboration({
   const participants = useParticipants();
   
   const [isSharing, setIsSharing] = useState(false);
-  const [sharedWith, setSharedWith] = useState<string[]>([]);
   const [copied, setCopied] = useState(false);
 
   // Broadcast caption updates to other participants

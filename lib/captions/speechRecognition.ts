@@ -23,7 +23,7 @@ export class SpeechRecognitionService {
   
   private startTime: Date | null = null;
   private autoRestart: boolean = true;
-  private restartTimer: NodeJS.Timeout | null = null;
+  private restartTimer: ReturnType<typeof setTimeout> | null = null;
 
   constructor(config: SpeechRecognitionConfig) {
     this.initializeRecognition(config);

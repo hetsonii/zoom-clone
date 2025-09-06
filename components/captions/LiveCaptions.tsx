@@ -1,9 +1,9 @@
 // components/captions/LiveCaptions.tsx
 'use client';
 
-import { useState, useEffect, useRef, useCallback } from 'react';
+import { useState, useCallback } from 'react';
 import { useCall, useCallStateHooks } from '@stream-io/video-react-sdk';
-import { Languages, Settings2, Download, X, Mic, MicOff } from 'lucide-react';
+import { Languages, Settings2, Download, Mic, MicOff } from 'lucide-react';
 import { Button } from '../ui/button';
 import {
   DropdownMenu,
@@ -19,7 +19,6 @@ import {
 } from '../ui/dialog';
 import { cn } from '@/lib/utils';
 import { useCaptions } from '@/hooks/useCaptions';
-import { CaptionSession } from '@/lib/captions/types';
 import { formatTranscript } from '@/lib/captions/formatters';
 import CaptionSettings from './CaptionSettings';
 import CaptionDisplay from './CaptionDisplay';

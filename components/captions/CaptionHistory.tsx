@@ -1,7 +1,7 @@
 // components/captions/CaptionHistory.tsx
 'use client';
 
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { CaptionSession } from '@/lib/captions/types';
 import { CaptionStorage } from '@/lib/captions/storage';
 import { formatTranscript } from '@/lib/captions/formatters';
